@@ -1,0 +1,116 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(224, 223, 223);
+    font-size: 25px;
+    background: #BFBFBA;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#addStopWatch {
+    margin-top: 3%;
+    background: #6990A6;
+    box-shadow: 4px 4px #5b60773d ;
+}
+
+#space_Stopwatch {
+     width: 1100px;
+     height: 100%;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+
+ #space_Stopwatch div{
+     display: flex;
+     justify-content: center;
+     width: 50%;
+ }
+ 
+ .body_Stopwatch {
+     display: flex;
+     width: 275px;
+     height: 172px;
+     margin: 3px;
+     background: #71758d;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 15px;
+     box-shadow: 10px 10px #5b60773d ;
+    overflow: hidden;
+ }
+
+.space_Buttons {
+    justify-content: center;
+     width: 100%;
+     display: block;
+     margin: 10%;
+ }
+.container_Inputs{
+    width: 100%;
+    justify-content: center;
+
+}
+ input {
+     width: 30%;
+     margin: 1%;
+     border: none;
+     border-radius: 4px;
+ }
+
+input:focus{
+    outline: none;
+}
+
+button{
+    margin-top: 15px;
+
+     border: none;
+     margin: 1%;
+     cursor: pointer;
+     border-radius: 5px;
+     background: #2c2d31;
+     color: rgb(224, 223, 223);
+     font-size: 18px;
+ } 
+
+ .button_Stop{
+    background: #d6402c;
+
+}
+.display_count {
+    height: 30%;
+    background: #3c3f49;
+    padding: 4px 40px;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    overflow: hidden; 
+}
+.stopwatch_Text {
+    align-self: center;
+}
+img{
+    width: 25px;
+    margin: 10%;
+    background: #2c2d31;
+    padding: 5% 10%;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(0.95);
+}
